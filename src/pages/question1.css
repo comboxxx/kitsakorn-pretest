@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  min-height: 500px;
+  min-width: 600px;
+  overflow-x: auto;
+}
+
+.firstColumn {
+  width: 200px;
+  border-right: #282c34 solid 1px;
+}
+.thirdColumn {
+  width: 300px;
+}
+
+.secondColumn {
+  flex: 1;
+  border-right: #282c34 solid 1px;
+  min-width: 100px;
+}
